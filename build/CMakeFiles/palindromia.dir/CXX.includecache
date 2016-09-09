@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/edgar/Programas/Palindromía/src/Palindromia.cpp
+palindromia.h
+/home/edgar/Programas/Palindromía/src/palindromia.h
+

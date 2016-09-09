@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o CMakeFiles/Palindromia.dir/src/main.cpp.o  -o Palindromia -rdynamic 

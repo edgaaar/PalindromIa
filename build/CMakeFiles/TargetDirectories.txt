@@ -1,0 +1,3 @@
+/home/edgar/Programas/Palindromía/build/CMakeFiles/edit_cache.dir
+/home/edgar/Programas/Palindromía/build/CMakeFiles/rebuild_cache.dir
+/home/edgar/Programas/Palindromía/build/CMakeFiles/Palindromia.dir
