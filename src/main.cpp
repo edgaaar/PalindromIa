@@ -14,8 +14,8 @@ int main()
     for(int  i = 0; palabra[i] != 0;++i){ //Bloque para quitar espacios a la cadena
         if(palabra[i] != 32){ //32 es espacio en ascii    
             Cadena[j] = palabra[i];
-            original.push (Cadena[j]);
-            volteada.push (Cadena[j]);
+            original.push (Cadena[j]); //vacía en cola
+            volteada.push (Cadena[j]); //vacía en pila
             j++;
         }
     }
