@@ -11,12 +11,12 @@ iostream
 -
 iomanip
 -
+queue
+-
+stack
+-
 
-/home/edgar/Programas/Palindromía/src/Palindromia.cpp
+/home/edgar/Programas/PalindromIa/src/main.cpp
 Palindromia.h
-/home/edgar/Programas/Palindromía/src/Palindromia.h
-
-/home/edgar/Programas/Palindromía/src/main.cpp
-Palindromia.h
-/home/edgar/Programas/Palindromía/src/Palindromia.h
+/home/edgar/Programas/PalindromIa/src/Palindromia.h
 

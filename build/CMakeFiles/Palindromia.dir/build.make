@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/edgar/Programas/Palindromía
+CMAKE_SOURCE_DIR = /home/edgar/Programas/PalindromIa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/edgar/Programas/Palindromía/build
+CMAKE_BINARY_DIR = /home/edgar/Programas/PalindromIa/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Palindromia.dir/depend.make
@@ -57,42 +57,18 @@ include CMakeFiles/Palindromia.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Palindromia.dir/flags.make
 
-CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o: CMakeFiles/Palindromia.dir/flags.make
-CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o: ../src/Palindromia.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgar/Programas/Palindromía/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o -c /home/edgar/Programas/Palindromía/src/Palindromia.cpp
-
-CMakeFiles/Palindromia.dir/src/Palindromia.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Palindromia.dir/src/Palindromia.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/Programas/Palindromía/src/Palindromia.cpp > CMakeFiles/Palindromia.dir/src/Palindromia.cpp.i
-
-CMakeFiles/Palindromia.dir/src/Palindromia.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Palindromia.dir/src/Palindromia.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/Programas/Palindromía/src/Palindromia.cpp -o CMakeFiles/Palindromia.dir/src/Palindromia.cpp.s
-
-CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o.requires:
-
-.PHONY : CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o.requires
-
-CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o.provides: CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Palindromia.dir/build.make CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o.provides.build
-.PHONY : CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o.provides
-
-CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o.provides.build: CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o
-
-
 CMakeFiles/Palindromia.dir/src/main.cpp.o: CMakeFiles/Palindromia.dir/flags.make
 CMakeFiles/Palindromia.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgar/Programas/Palindromía/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Palindromia.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Palindromia.dir/src/main.cpp.o -c /home/edgar/Programas/Palindromía/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edgar/Programas/PalindromIa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Palindromia.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Palindromia.dir/src/main.cpp.o -c /home/edgar/Programas/PalindromIa/src/main.cpp
 
 CMakeFiles/Palindromia.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Palindromia.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/Programas/Palindromía/src/main.cpp > CMakeFiles/Palindromia.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edgar/Programas/PalindromIa/src/main.cpp > CMakeFiles/Palindromia.dir/src/main.cpp.i
 
 CMakeFiles/Palindromia.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Palindromia.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/Programas/Palindromía/src/main.cpp -o CMakeFiles/Palindromia.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edgar/Programas/PalindromIa/src/main.cpp -o CMakeFiles/Palindromia.dir/src/main.cpp.s
 
 CMakeFiles/Palindromia.dir/src/main.cpp.o.requires:
 
@@ -107,17 +83,15 @@ CMakeFiles/Palindromia.dir/src/main.cpp.o.provides.build: CMakeFiles/Palindromia
 
 # Object files for target Palindromia
 Palindromia_OBJECTS = \
-"CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o" \
 "CMakeFiles/Palindromia.dir/src/main.cpp.o"
 
 # External object files for target Palindromia
 Palindromia_EXTERNAL_OBJECTS =
 
-Palindromia: CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o
 Palindromia: CMakeFiles/Palindromia.dir/src/main.cpp.o
 Palindromia: CMakeFiles/Palindromia.dir/build.make
 Palindromia: CMakeFiles/Palindromia.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edgar/Programas/Palindromía/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Palindromia"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edgar/Programas/PalindromIa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Palindromia"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Palindromia.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,7 +99,6 @@ CMakeFiles/Palindromia.dir/build: Palindromia
 
 .PHONY : CMakeFiles/Palindromia.dir/build
 
-CMakeFiles/Palindromia.dir/requires: CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o.requires
 CMakeFiles/Palindromia.dir/requires: CMakeFiles/Palindromia.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/Palindromia.dir/requires
@@ -135,6 +108,6 @@ CMakeFiles/Palindromia.dir/clean:
 .PHONY : CMakeFiles/Palindromia.dir/clean
 
 CMakeFiles/Palindromia.dir/depend:
-	cd /home/edgar/Programas/Palindromía/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edgar/Programas/Palindromía /home/edgar/Programas/Palindromía /home/edgar/Programas/Palindromía/build /home/edgar/Programas/Palindromía/build /home/edgar/Programas/Palindromía/build/CMakeFiles/Palindromia.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/edgar/Programas/PalindromIa/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edgar/Programas/PalindromIa /home/edgar/Programas/PalindromIa /home/edgar/Programas/PalindromIa/build /home/edgar/Programas/PalindromIa/build /home/edgar/Programas/PalindromIa/build/CMakeFiles/Palindromia.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Palindromia.dir/depend
 

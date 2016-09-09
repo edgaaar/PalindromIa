@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/edgar/Programas/Palindromía
+CMAKE_SOURCE_DIR = /home/edgar/Programas/PalindromIa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/edgar/Programas/Palindromía/build
+CMAKE_BINARY_DIR = /home/edgar/Programas/PalindromIa/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/Programas/Palindromía/build/CMakeFiles /home/edgar/Programas/Palindromía/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/Programas/PalindromIa/build/CMakeFiles /home/edgar/Programas/PalindromIa/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/Programas/Palindromía/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edgar/Programas/PalindromIa/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,33 +123,6 @@ Palindromia/fast:
 	$(MAKE) -f CMakeFiles/Palindromia.dir/build.make CMakeFiles/Palindromia.dir/build
 .PHONY : Palindromia/fast
 
-src/Palindromia.o: src/Palindromia.cpp.o
-
-.PHONY : src/Palindromia.o
-
-# target to build an object file
-src/Palindromia.cpp.o:
-	$(MAKE) -f CMakeFiles/Palindromia.dir/build.make CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o
-.PHONY : src/Palindromia.cpp.o
-
-src/Palindromia.i: src/Palindromia.cpp.i
-
-.PHONY : src/Palindromia.i
-
-# target to preprocess a source file
-src/Palindromia.cpp.i:
-	$(MAKE) -f CMakeFiles/Palindromia.dir/build.make CMakeFiles/Palindromia.dir/src/Palindromia.cpp.i
-.PHONY : src/Palindromia.cpp.i
-
-src/Palindromia.s: src/Palindromia.cpp.s
-
-.PHONY : src/Palindromia.s
-
-# target to generate assembly for a file
-src/Palindromia.cpp.s:
-	$(MAKE) -f CMakeFiles/Palindromia.dir/build.make CMakeFiles/Palindromia.dir/src/Palindromia.cpp.s
-.PHONY : src/Palindromia.cpp.s
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -186,9 +159,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Palindromia"
-	@echo "... src/Palindromia.o"
-	@echo "... src/Palindromia.i"
-	@echo "... src/Palindromia.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

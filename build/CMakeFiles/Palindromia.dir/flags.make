@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/edgar/Programas/Palindromía/include 
+CXX_INCLUDES = -I/home/edgar/Programas/PalindromIa/include 
 

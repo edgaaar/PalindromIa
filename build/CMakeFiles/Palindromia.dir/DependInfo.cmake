@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/edgar/Programas/Palindromía/src/Palindromia.cpp" "/home/edgar/Programas/Palindromía/build/CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o"
-  "/home/edgar/Programas/Palindromía/src/main.cpp" "/home/edgar/Programas/Palindromía/build/CMakeFiles/Palindromia.dir/src/main.cpp.o"
+  "/home/edgar/Programas/PalindromIa/src/main.cpp" "/home/edgar/Programas/PalindromIa/build/CMakeFiles/Palindromia.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

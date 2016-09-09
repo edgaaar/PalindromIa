@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Palindromia.dir/src/Palindromia.cpp.o"
   "CMakeFiles/Palindromia.dir/src/main.cpp.o"
   "Palindromia.pdb"
   "Palindromia"

@@ -1,4 +1,4 @@
-# Install script for directory: /home/edgar/Programas/Palindromía
+# Install script for directory: /home/edgar/Programas/PalindromIa
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/edgar/Programas/Palindromía/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/edgar/Programas/PalindromIa/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

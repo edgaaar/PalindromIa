@@ -3,6 +3,6 @@ project(Palindromia)
 
 include_directories(include)
 
-set(SOURCES src/Palindromia.cpp src/main.cpp)
+set(SOURCES src/main.cpp)
 
 add_executable(Palindromia ${SOURCES})
